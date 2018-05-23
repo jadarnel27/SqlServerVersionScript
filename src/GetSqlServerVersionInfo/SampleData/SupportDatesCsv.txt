@@ -1,0 +1,113 @@
+﻿Products Released,Lifecycle Start Date,Mainstream Support End Date,Extended Support End Date,Service Pack Support End Date,Notes
+"Microsoft Business Solutions Great Plains 7.0, SQL Server",7/1/2002,3/31/2005,Not Applicable,,
+Microsoft SQL Server 2000 64-bit Edition,11/30/2000,Not Applicable,Not Applicable,7/11/2002,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2000 Desktop Engine,11/30/2000,4/8/2008,4/9/2013,,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2000 Desktop Engine Release A,1/29/2003,4/8/2008,4/9/2013,,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2000 Developer Edition,11/30/2000,Not Applicable,Not Applicable,7/11/2002,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2000 Enterprise Edition,11/30/2000,Not Applicable,Not Applicable,7/11/2002,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2000 Reporting Services Service Pack 1,9/22/2004,Not Applicable,Not Applicable,7/11/2006,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2000 Reporting Services Service Pack 2,4/22/2005,6/30/2009,6/30/2014,,"<p>Support ends 12 months after the next service pack releases or at the end of the product's support lifecycle, whichever comes first. For more information, please see the <a href=""https://support.microsoft.com/help/17138"">service pack policy</a>.</p>"
+Microsoft SQL Server 2000 Service Pack 1,6/12/2001,Not Applicable,Not Applicable,2/28/2002,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2000 Service Pack 2,11/30/2001,Not Applicable,Not Applicable,4/7/2003,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2000 Service Pack 3a,1/7/2003,Not Applicable,Not Applicable,7/10/2007,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2000 Service Pack 4,5/6/2005,4/8/2008,4/9/2013,,"<p>Support ends 12 months after the next service pack releases or at the end of the product's support lifecycle, whichever comes first. For more information, please see the <a href=""https://support.microsoft.com/help/17138"">service pack policy</a>.</p>"
+Microsoft SQL Server 2000 Standard Edition,11/30/2000,Not Applicable,Not Applicable,7/11/2002,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2000 Standard Edition Service Pack 0,11/30/2000,Not Applicable,Not Applicable,,
+Microsoft SQL Server 2000 Windows CE Edition 2.0,12/16/2002,1/8/2008,1/8/2013,,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2000 Workgroup Edition,6/1/2005,4/8/2008,4/9/2013,,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2005 Compact Edition,2/19/2007,Not Applicable,Not Applicable,7/10/2007,"See the latest Service Pack listing for this product for the end of support dates. For information about SQL Server 2005 support, please see this link: <a href=""http://www.microsoft.com/sqlserverupgrade"">www.microsoft.com/sqlserverupgrade</a>"
+Microsoft SQL Server 2005 Developer Edition,1/14/2006,Not Applicable,Not Applicable,7/10/2007,"See the latest Service Pack listing for this product for the end of support dates. For information about SQL Server 2005 support, please see this link: <a href=""http://www.microsoft.com/sqlserverupgrade"">www.microsoft.com/sqlserverupgrade</a>"
+Microsoft SQL Server 2005 Enterprise Edition,1/14/2006,Not Applicable,Not Applicable,7/10/2007,"See the latest Service Pack listing for this product for the end of support dates. For information about SQL Server 2005 support, please see this link: <a href=""http://www.microsoft.com/sqlserverupgrade"">www.microsoft.com/sqlserverupgrade</a>"
+Microsoft SQL Server 2005 Enterprise Edition for Itanium-based Systems,1/14/2006,Not Applicable,Not Applicable,7/10/2007,"See the latest Service Pack listing for this product for the end of support dates. For information about SQL Server 2005 support, please see this link: <a href=""http://www.microsoft.com/sqlserverupgrade"">www.microsoft.com/sqlserverupgrade</a>"
+Microsoft SQL Server 2005 Enterprise X64 Edition,1/14/2006,Not Applicable,Not Applicable,7/10/2007,"See the latest Service Pack listing for this product for the end of support dates. For information about SQL Server 2005 support, please see this link: <a href=""http://www.microsoft.com/sqlserverupgrade"">www.microsoft.com/sqlserverupgrade</a>"
+Microsoft SQL Server 2005 Express Edition,6/1/2006,Not Applicable,Not Applicable,7/10/2007,"See the latest Service Pack listing for this product for the end of support dates. For information about SQL Server 2005 support, please see this link: <a href=""http://www.microsoft.com/sqlserverupgrade"">www.microsoft.com/sqlserverupgrade</a>"
+Microsoft SQL Server 2005 Express Edition with Advanced Services,7/16/2006,Not Applicable,Not Applicable,7/10/2007,"See the latest Service Pack listing for this product for the end of support dates. For information about SQL Server 2005 support, please see this link: <a href=""http://www.microsoft.com/sqlserverupgrade"">www.microsoft.com/sqlserverupgrade</a>"
+Microsoft SQL Server 2005 for Embedded Systems,1/14/2006,Not Applicable,Not Applicable,7/10/2007,"See the latest Service Pack listing for this product for the end of support dates. For information about SQL Server 2005 support, please see this link: <a href=""http://www.microsoft.com/sqlserverupgrade"">www.microsoft.com/sqlserverupgrade</a>"
+Microsoft SQL Server 2005 Service Pack 1,4/18/2006,Not Applicable,Not Applicable,4/8/2008,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2005 Service Pack 2,2/19/2007,Not Applicable,Not Applicable,1/12/2010,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2005 Service Pack 3,12/15/2008,Not Applicable,Not Applicable,1/10/2012,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2005 Service Pack 4,12/13/2010,4/12/2011,4/12/2016,,"<p>Support ends 12 months after the next service pack releases or at the end of the product's support lifecycle, whichever comes first. For more information, please see the <a href=""https://support.microsoft.com/help/17138"">service pack policy</a>.</p>"
+Microsoft SQL Server 2005 Standard Edition,1/14/2006,Not Applicable,Not Applicable,7/10/2007,"See the latest Service Pack listing for this product for the end of support dates. For information about SQL Server 2005 support, please see this link: <a href=""http://www.microsoft.com/sqlserverupgrade"">www.microsoft.com/sqlserverupgrade</a>"
+Microsoft SQL Server 2005 Standard Edition for Itanium-based Systems,1/14/2006,Not Applicable,Not Applicable,7/10/2007,"See the latest Service Pack listing for this product for the end of support dates. For information about SQL Server 2005 support, please see this link: <a href=""http://www.microsoft.com/sqlserverupgrade"">www.microsoft.com/sqlserverupgrade</a>"
+Microsoft SQL Server 2005 Standard X64 Edition,1/14/2006,Not Applicable,Not Applicable,7/10/2007,"See the latest Service Pack listing for this product for the end of support dates. For information about SQL Server 2005 support, please see this link: <a href=""http://www.microsoft.com/sqlserverupgrade"">www.microsoft.com/sqlserverupgrade</a>"
+Microsoft SQL Server 2005 Workgroup Edition,1/14/2006,Not Applicable,Not Applicable,7/10/2007,"See the latest Service Pack listing for this product for the end of support dates. For information about SQL Server 2005 support, please see this link: <a href=""http://www.microsoft.com/sqlserverupgrade"">www.microsoft.com/sqlserverupgrade</a>"
+Microsoft SQL Server 2008 Developer,11/6/2008,Not Applicable,Not Applicable,4/13/2010,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 Enterprise,11/7/2008,Not Applicable,Not Applicable,4/13/2010,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 Express,11/11/2008,Not Applicable,Not Applicable,4/13/2010,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 Express with Advanced Services,11/22/2008,Not Applicable,Not Applicable,4/13/2010,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 R2 Datacenter,7/20/2010,Not Applicable,Not Applicable,7/10/2012,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 R2 Developer,7/20/2010,Not Applicable,Not Applicable,7/10/2012,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 R2 Enterprise,7/20/2010,Not Applicable,Not Applicable,7/10/2012,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 R2 Express,7/20/2010,Not Applicable,Not Applicable,7/10/2012,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 R2 Express with Advanced Services,7/20/2010,Not Applicable,Not Applicable,7/10/2012,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 R2 for Embedded Systems,7/20/2010,Not Applicable,Not Applicable,7/10/2012,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 R2 Parallel Data Warehouse,11/9/2010,7/8/2014,7/9/2019,,Hardware products will receive 5 years of support following Microsoft’s end of sales date for the Major Product version. Minor Product releases follow the Support Lifecycle of their respective Major Product versions.
+Microsoft SQL Server 2008 R2 Service Pack 1,7/12/2011,Not Applicable,Not Applicable,10/8/2013,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 R2 Service Pack 2,7/26/2012,Not Applicable,Not Applicable,10/13/2015,"See the latest Service Pack listing for this product for the end of support dates. For IA64 only, SP2 will be supported until 7/9/2019. For more information see the SQL Release Services blog at <a href=""http://blogs.msdn.com/b/sqlreleaseservices/archive/2014/09/26/sql-server-2008-r2-service-pack-3-has-released.aspx"">http://blogs.msdn.com/b/sqlreleaseservices/archive/2014/09/26/sql-server-2008-r2-service-pack-3-has-released.aspx</a>"
+Microsoft SQL Server 2008 R2 Service Pack 3,Review Note,7/8/2014,7/9/2019,,"The Lifecycle Start Date for SQL Server 2008 R2 SP3 is 9/26/2014. <br>Support ends 12 months after the next service pack releases or at the end of the product's support lifecycle, whichever comes first. For more information, please see the <a href=""https://support.microsoft.com/help/17138"">service pack policy</a>."
+Microsoft SQL Server 2008 R2 Standard,7/20/2010,Not Applicable,Not Applicable,7/10/2012,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 R2 Standard Edition for Small Business,7/20/2010,Not Applicable,Not Applicable,7/10/2012,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 R2 Web,7/20/2010,Not Applicable,Not Applicable,7/10/2012,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 R2 Workgroup,7/20/2010,Not Applicable,Not Applicable,7/10/2012,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 Service Pack 1,3/31/2009,Not Applicable,Not Applicable,10/11/2011,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 Service Pack 2,9/24/2010,Not Applicable,Not Applicable,10/9/2012,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 Service Pack 3,10/6/2011,Not Applicable,Not Applicable,10/13/2015,"See the latest Service Pack listing for this product for the end of support dates.For IA64 only, SP3 will be supported until 7/9/2019. For more information see the SQL Release Services blog at <a href=""http://blogs.msdn.com/b/sqlreleaseservices/archive/2014/09/30/sql-server-2008-service-pack-4-has-released.aspx"">http://blogs.msdn.com/b/sqlreleaseservices/archive/2014/09/30/sql-server-2008-service-pack-4-has-released.aspx</a>"
+Microsoft SQL Server 2008 Service Pack 4,7/7/2014,7/8/2014,7/9/2019,,"Support ends 12 months after the next service pack releases or at the end of the product's support lifecycle, whichever comes first. For more information, please see the <a href=""https://support.microsoft.com/help/17138"">service pack policy</a>."
+Microsoft SQL Server 2008 Standard,11/6/2008,Not Applicable,Not Applicable,4/13/2010,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 Standard Edition for Small Business,11/6/2008,Not Applicable,Not Applicable,4/13/2010,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 Web,11/6/2008,Not Applicable,Not Applicable,4/13/2010,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2008 Workgroup,11/6/2008,Not Applicable,Not Applicable,4/13/2010,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2012 Business Intelligence,5/20/2012,Not Applicable,Not Applicable,1/14/2014,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2012 Developer,5/20/2012,Not Applicable,Not Applicable,1/14/2014,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2012 Enterprise,5/20/2012,Not Applicable,Not Applicable,1/14/2014,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2012 Enterprise Core,5/20/2012,7/11/2017,7/12/2022,,
+Microsoft SQL Server 2012 Express,5/20/2012,Not Applicable,Not Applicable,1/14/2014,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2012 for Embedded Systems,5/20/2012,Not Applicable,Not Applicable,1/14/2014,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2012 Parallel Data Warehouse,7/12/2013,10/9/2018,10/10/2023,,SQL 2012 PDW has been rebranded as APS (Analytics Platform System). APS hardware and the server software configured and running on the appliance hardware shall receive five years of support from General Availability of APS. APS 2016 is the most current appliance update.The lifecycle for this product is extended as shown to provide customers continued support with the latest update to APS 2016.
+Microsoft SQL Server 2012 Service Pack 1,11/7/2012,Not Applicable,Not Applicable,7/14/2015,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2012 Service Pack 2,6/10/2014,Not Applicable,Not Applicable,1/10/2017,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2012 Service Pack 3,12/1/2015,Not Applicable,Not Applicable,10/9/2018,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2012 Service Pack 4,Review Note,7/11/2017,7/12/2022,,"The Lifecycle Start Date <a href=""https://blogs.msdn.microsoft.com/sqlreleaseservices/sql-server-2012-service-pack-4-sp4-released"">SQL Server 2012 SP4</a> for was 10/5/2017.<BR>Support ends 12 months after the next service pack releases or at the end of the product's support lifecycle, whichever comes first. For more information, please see the <a href=""https://support.microsoft.com/help/17138"">service pack policy</a>."
+Microsoft SQL Server 2012 Standard,5/20/2012,Not Applicable,Not Applicable,1/14/2014,"<p>Support ends 12 months after the next service pack releases or at the end of the product's support lifecycle, whichever comes first. For more information, please see the <a href=""https://support.microsoft.com/help/17138"">service pack policy</a>.</p>"
+Microsoft SQL Server 2012 Web,5/20/2012,Not Applicable,Not Applicable,1/14/2014,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2014 Business Intelligence,6/5/2014,Not Applicable,Not Applicable,7/12/2016,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2014 Developer,6/5/2014,Not Applicable,Not Applicable,7/12/2016,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2014 Enterprise,6/5/2014,Not Applicable,Not Applicable,7/12/2016,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2014 Enterprise Core,6/5/2014,Not Applicable,Not Applicable,7/12/2016,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2014 Express,6/5/2014,Not Applicable,Not Applicable,7/12/2016,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2014 Service Pack 1,4/14/2015,Not Applicable,Not Applicable,10/10/2017,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2014 Service Pack 2,7/14/2016,7/9/2019,7/9/2024,,"Support ends 12 months after the next service pack releases or at the end of the product's support lifecycle, whichever comes first. For more information, please see the <a href=""https://support.microsoft.com/help/17138"">service pack policy</a>."
+Microsoft SQL Server 2014 Standard,6/5/2014,Not Applicable,Not Applicable,7/12/2016,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2014 Web,6/5/2014,Not Applicable,Not Applicable,7/12/2016,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2016 Developer,6/1/2016,Not Applicable,Not Applicable,1/9/2018,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2016 Enterprise,6/1/2016,Not Applicable,Not Applicable,1/9/2018,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2016 Enterprise Core,6/1/2016,Not Applicable,Not Applicable,1/9/2018,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2016 Express,6/1/2016,Not Applicable,Not Applicable,1/9/2018,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2016 Service Pack 1,11/16/2016,7/13/2021,7/14/2026,,"<p>Support ends 12 months after the next service pack releases or at the end of the product's support lifecycle, whichever comes first. For more information, please see the <a href=""https://support.microsoft.com/help/17138"">service pack policy</a>.</p>"
+Microsoft SQL Server 2016 Standard,6/1/2016,Not Applicable,Not Applicable,1/9/2018,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 2016 Web,6/1/2016,Not Applicable,Not Applicable,1/9/2018,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server 4.2 for OS/2,Not Applicable,7/1/1999,Not Applicable,,
+Microsoft SQL Server 6.0 Standard Edition,Not Applicable,3/31/1999,Not Applicable,,
+Microsoft SQL Server 6.5 Enterprise Edition,3/1/1998,3/31/2004,Not Applicable,,
+Microsoft SQL Server 6.5 Service Pack 1,Not Applicable,Not Applicable,Not Applicable,,
+Microsoft SQL Server 6.5 Service Pack 2,Not Applicable,Not Applicable,Not Applicable,,
+Microsoft SQL Server 6.5 Service Pack 3,Not Applicable,Not Applicable,Not Applicable,,
+Microsoft SQL Server 6.5 Service Pack 4,Not Applicable,Not Applicable,Not Applicable,3/24/1999,
+Microsoft SQL Server 6.5 Service Pack 5a,12/24/1998,Not Applicable,Not Applicable,,
+Microsoft SQL Server 6.5 Standard Edition,6/30/1996,1/1/2002,Not Applicable,,
+Microsoft SQL Server 7.0 Enterprise Edition,3/1/1999,12/31/2005,1/11/2011,,
+Microsoft SQL Server 7.0 Service Pack 0,3/1/1999,Not Applicable,Not Applicable,,
+Microsoft SQL Server 7.0 Service Pack 1,Not Applicable,Not Applicable,Not Applicable,,
+Microsoft SQL Server 7.0 Service Pack 2,Not Applicable,Not Applicable,Not Applicable,3/20/2000,
+Microsoft SQL Server 7.0 Service Pack 3,Not Applicable,Not Applicable,Not Applicable,7/26/2002,
+Microsoft SQL Server 7.0 Service Pack 4,4/26/2002,Review Note,Review Note,,"<p>Support ends 12 months after the next service pack releases or at the end of the product's support lifecycle, whichever comes first. For more information, please see the <a href=""https://support.microsoft.com/help/17138"">service pack policy</a>.</p>"
+Microsoft SQL Server 7.0 Standard Edition,3/1/1999,12/31/2005,1/11/2011,,
+Microsoft SQL Server Compact 3.5,2/19/2008,Not Applicable,Not Applicable,10/13/2009,See the latest Service Pack listing for this product for the end of support dates.
+Microsoft SQL Server Compact 3.5 Service Pack 1 for Windows Mobile,8/11/2008,Not Applicable,Not Applicable,7/12/2011,
+Microsoft SQL Server Compact 3.5 Service Pack 2,6/29/2010,4/9/2013,4/10/2018,,"<p>Support ends 12 months after the next service pack releases or at the end of the product's support lifecycle, whichever comes first. For more information, please see the <a href=""https://support.microsoft.com/help/17138"">service pack policy</a>.</p>"
+Microsoft SQL Server Compact 4.0,4/13/2011,7/12/2016,7/13/2021,,
+Microsoft SQL Server Notification Services 2.0 Enterprise Edition,11/26/2002,1/8/2008,1/8/2013,,
+Microsoft SQL Server Notification Services 2.0 Standard Edition,11/26/2002,1/8/2008,1/8/2013,,
+SQL Server 2000 Reporting Services developer Edition,4/16/2004,6/30/2009,6/30/2014,,
+SQL Server 2017 on Linux (all editions),9/29/2017,10/11/2022,10/12/2027,,
+SQL Server 2017 on Windows (all editions),9/29/2017,10/11/2022,10/12/2027,,
