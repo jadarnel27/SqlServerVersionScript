@@ -2,11 +2,21 @@
 Creates a T-SQL script to build a table with all supported SQL Server versions and their support dates
 
 # Usage
-Download the latest release and run the exe or run `dotnet GetSqlServerVersionInfo.dll` depending on your system (see the Release tab for info).
+Download the [latest release](https://github.com/jadarnel27/SqlServerVersionScript/releases).  There are two versions of the application:
 
-This is a Windows console app.  To build and run the source code yourself, open the solution in Visual Studio, and press F5 to run the app under the debugger.
+ - **SqlServerVersionScript-NetCoreSC-win64.zip**
+     - a self-contained .NET Core app (.exe) that runs on 64-bit Windows
+     - run this by extracting the zip and running GetSqlServerVersionInfo.exe
+ - **SqlServerVersionScript-NetCoreFDD-win64.zip**
+     - a (much smaller) Framework-dependent deployment of the .NET Core app (.dll) that run on 64-bit Windows
+     - requires .NET Core to be present on the machine
+     - this can be run from the command line by extracting the zip and running `dotnet GetSqlServerVersionInfo.dll`
+	 
+By default, a file named SqlServerVersions.sql will be created in the same directory where you ran the application.  To specify a destination folder, pass the path as a command line argument:
 
-A Command Prompt window will be displayed with the T-SQL script.  You can then copy the contents of the script out of the console window and run it or save it.
+    GetSqlServerVersionInfo.exe "C:\Temp"
+	// or
+	dotnet GetSqlServerVersionInfo.dll "C:\Temp"
 
 # Example script
 See the \src\SqlServerVersions-2018-05-22.sql in this repository for an example of the output of the application.
