@@ -1,6 +1,7 @@
 ﻿using HtmlAgilityPack;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -11,12 +12,44 @@ namespace GetSqlServerVersionInfo
     {
         public static void Main(string[] args)
         {
+            try
+            {
+                TryMain(args);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("An error occurred.  Details to follow:");
+                Console.WriteLine();
+                Console.WriteLine(e);
+            }
+            finally
+            {
+                Console.ReadLine();
+            }
+        }
+
+        private static void TryMain(string[] args)
+        {
             var supportDates = GetSqlServerSupportDatesFromMicrosoftWebsite();
             var builds = GetSqlServerBuildsFromMicrosoftWebsite(supportDates);
             var sqlScript = BuildSqlScript(builds);
 
-            Console.WriteLine(sqlScript);
-            Console.ReadLine();
+            var file = GetDestinationFileFromCommandLineArguments(args);
+            File.WriteAllText(file.FullName, sqlScript);
+
+            Console.WriteLine($"SqlServerVersions.sql was saved to {file.FullName}");
+        }
+
+        private static FileInfo GetDestinationFileFromCommandLineArguments(string[] args)
+        {
+            var destinationPathArgument =
+                args.Length < 1 || string.IsNullOrWhiteSpace(args[0])
+                    ? @".\"
+                    : args[0];
+            var destinationPath = Path.Combine(destinationPathArgument,
+                "SqlServerVersions.sql");
+
+            return new FileInfo(destinationPath);
         }
 
         private static List<SqlServerSupportDates> GetSqlServerSupportDatesFromMicrosoftWebsite()
