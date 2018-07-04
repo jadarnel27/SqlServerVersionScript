@@ -196,7 +196,14 @@ CREATE TABLE dbo.SqlServerVersions
     MainstreamSupportEndDate date not null,
     ExtendedSupportEndDate date not null,
     MajorVersionName varchar(19) not null,
-    MinorVersionName varchar(67) not null
+    MinorVersionName varchar(67) not null,
+
+    CONSTRAINT PK_SqlServerVersions PRIMARY KEY CLUSTERED
+    (
+        MajorVersionNumber ASC,
+        MinorVersionNumber ASC,
+        ReleaseDate ASC
+    )
 );");
             sqlScript.Append(@"
 insert into dbo.SqlServerVersions
