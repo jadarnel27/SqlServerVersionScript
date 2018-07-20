@@ -183,32 +183,38 @@ namespace GetSqlServerVersionInfo
         {
             var sqlScript = new StringBuilder();
             sqlScript.AppendLine(@"
-IF EXISTS (SELECT NULL FROM sys.tables WHERE [name] = 'SqlServerVersions')
-    DROP TABLE dbo.SqlServerVersions;
+IF NOT EXISTS (SELECT NULL FROM sys.tables WHERE [name] = 'SqlServerVersions')
+BEGIN
 
-CREATE TABLE dbo.SqlServerVersions
-(
-    MajorVersionNumber tinyint not null,
-    MinorVersionNumber smallint not null,
-    Branch varchar(34) not null,
-    [Url] varchar(99) not null,
-    ReleaseDate date not null,
-    MainstreamSupportEndDate date not null,
-    ExtendedSupportEndDate date not null,
-    MajorVersionName varchar(19) not null,
-    MinorVersionName varchar(67) not null,
-
-    CONSTRAINT PK_SqlServerVersions PRIMARY KEY CLUSTERED
+    CREATE TABLE dbo.SqlServerVersions
     (
-        MajorVersionNumber ASC,
-        MinorVersionNumber ASC,
-        ReleaseDate ASC
-    )
-);");
+        MajorVersionNumber tinyint not null,
+        MinorVersionNumber smallint not null,
+        Branch varchar(34) not null,
+        [Url] varchar(99) not null,
+        ReleaseDate date not null,
+        MainstreamSupportEndDate date not null,
+        ExtendedSupportEndDate date not null,
+        MajorVersionName varchar(19) not null,
+        MinorVersionName varchar(67) not null,
+
+        CONSTRAINT PK_SqlServerVersions PRIMARY KEY CLUSTERED
+        (
+            MajorVersionNumber ASC,
+            MinorVersionNumber ASC,
+            ReleaseDate ASC
+        )
+    );
+
+END;
+
+DELETE dbo.SqlServerVersions;"
+            );
+
             sqlScript.Append(@"
-insert into dbo.SqlServerVersions
+INSERT INTO dbo.SqlServerVersions
     (MajorVersionNumber, MinorVersionNumber, Branch, [Url], ReleaseDate, MainstreamSupportEndDate, ExtendedSupportEndDate, MajorVersionName, MinorVersionName)
-values");
+VALUES");
             foreach (var build in builds)
             {
                 sqlScript.Append($@"
