@@ -13,7 +13,7 @@ namespace GetSqlServerVersionInfo
             ServicePack = cells[1].InnerText.Replace("&nbsp;", string.Empty);
             _updates = cells[2].InnerText.Replace("&nbsp;", string.Empty);
             _knowledgeBaseArticleId = cells[3].InnerText.Replace("&nbsp;", string.Empty);
-            _releaseDate = DateTime.Parse(cells[4].InnerText.Replace("&nbsp;", string.Empty));
+            _releaseDate = DateTime.Parse(cells[4].InnerText.Replace("&nbsp;", string.Empty).Replace("Septmeber", "September"));
             MajorVersionName = majorVersionName;
         }
 
