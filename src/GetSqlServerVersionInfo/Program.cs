@@ -150,6 +150,17 @@ namespace GetSqlServerVersionInfo
                     var extendedSupportEndDate = supportDate?.ExtendedSupportEndDate;
                     var servicePackSupportEndDate = supportDate?.ServicePackSupportEndDate;
 
+                    // 2018-11-16: https://github.com/jadarnel27/SqlServerVersionScript/issues/11
+                    // For some reason, somtimes a product is not listed on the support website.
+                    // for instance SQL Server 2014 - Service Pack 3
+                    // For now set support end date to '2014-09-07' as this is/was the End of Extended support for SQL 2014 SP2
+                    if ((mainstreamSupportEndDate == null) && (extendedSupportEndDate == null) && (servicePackSupportEndDate == null) && (build.MajorVersionNumber == 12) && (build.ServicePack == "SP3"))
+                    {
+                        mainstreamSupportEndDate = new DateTime(2024, 9, 7);
+                        extendedSupportEndDate = new DateTime(2024, 9, 7);
+                        //continue;
+                    }
+
                     build.SetSupportDates(mainstreamSupportEndDate, extendedSupportEndDate, 
                         servicePackSupportEndDate);
 
