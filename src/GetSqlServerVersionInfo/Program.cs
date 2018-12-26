@@ -194,7 +194,7 @@ namespace GetSqlServerVersionInfo
         {
             var sqlScript = new StringBuilder();
             sqlScript.AppendLine(@"
-IF NOT EXISTS (SELECT NULL FROM sys.tables WHERE [name] = 'SqlServerVersions')
+IF (OBJECT_ID('dbo.SqlServerVersions') IS NULL)
 BEGIN
 
     CREATE TABLE dbo.SqlServerVersions
@@ -218,6 +218,7 @@ BEGIN
     );
 
 END;
+GO
 
 DELETE dbo.SqlServerVersions;"
             );
@@ -233,7 +234,9 @@ VALUES");
             }
             // Remove the trailing comma
             sqlScript.Remove(sqlScript.Length - 1, 1);
-            sqlScript.Append(';');
+            sqlScript.Append(@"
+;
+GO");
 
             return sqlScript.ToString();
         }
